@@ -1,0 +1,90 @@
+.register-container {
+  display: flex;
+  height: 100vh;
+}
+
+.form-section,
+.info-section {
+  flex: 1;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-section p{
+  font-size: 0.75rem;
+  color: #6b6a6a;
+}
+
+button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+
+}
+
+.social-buttons button {
+  flex: 1;
+  background: white;
+  border: 1px solid #0066ff;
+  color: #0066ff;
+  font-weight: bold;
+}
+
+.info-section {
+  background-color: #f3f3f3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-section h2 {
+  margin-bottom: 1rem;
+}
+
+.info-section button {
+  width: auto;
+  padding: 0.5rem 2rem;
+  background-color: #0066ff;
+  color: white;
+}
+h2{
+  color: black;
+  font-size: 3rem;
+}
